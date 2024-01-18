@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+/* #bulb{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 3px solid #000;
+    background-color: black;
+} */
+
+/* button{
+    padding: 10px 30px;
+    font-size: 20px;
+    margin: 50px;
+
+} */
+/* h1{
+    font-family: 'Lucida Sans';
+} */
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7B66FF;
+}
+#card{
+    height: 450px;
+    width: 350px;
+    background-color: whitesmoke;
+    border-radius: 5%;
+    padding: 30px;
+    text-align: center;
+}
+#card img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5%;
+}
+#card h1{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+#card h5{
+    font-size: 25px;
+    color: darkred;
+    margin: 20px;
+}
+#card button{
+    background-color: pink;
+    font-family:sans-serif;
+    font-weight: 700;
+    padding: 12px 20px;
+    border-radius: 5%;
+    border: none;
+    margin: 5px;
+    cursor:pointer;
+}
+ #card #remove{
+    background-color: gainsboro;
+ }
